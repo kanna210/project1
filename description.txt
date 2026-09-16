@@ -1,0 +1,14 @@
+
+Meal Picker
+a. What problem does your app solve or what purpose does it serve?
+When you and your friend, partner, roommate, family etc don’t know what to eat, this app solves that problem.
+
+b. Who is the intended user?
+You and your friend, partner, roommate, family etc.
+
+c. What actions will users be able to perform (e.g., sign up, add items, search, comment, etc.)?
+You sign in and you can add and delete the meal items.
+You can vote, cross out the items.
+You can click random pick button and it selects 1 meal from meal ideas that have been voted by you and the other user.
+
+Instead of meal picker, I may change this to Activities idea picker where you and your friend can pick activities you do for weekends or vacation.

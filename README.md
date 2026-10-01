@@ -23,7 +23,7 @@ The intended users are friends, roommates, family members, partners, or can be a
 
 ## Entity Relationship Diagram
 
-![Meal Picker ERD](erd.png)
+![Meal Picker ERD](images/erd.png)
 
 ## Business Rules
 

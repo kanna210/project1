@@ -21,9 +21,13 @@ The intended users are friends, roommates, family members, partners, or can be a
 - Vote for meal ideas
 - Randomly select a meal from the voted meal ideas
 
-## Entity Relationship Diagram
+## Relations Diagram
 
-![Meal Picker ERD](images/erd.png)
+The relations diagram shows the relations, entities, attributes, business rules.
+Additionally, this ERD shows the normalization concepts to reflect the lecture contents from lecture 6.
+
+![Meal Picker Relations](images/ERD_Oct19.png)
+
 
 ## Business Rules
 

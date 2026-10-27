@@ -83,9 +83,10 @@ The foreign key `Meal.user_id` references `User.user_id` to maintain referential
 
 ### SQL Schema
 
-The SQL statements used to create the database and tables are available in [`schema.sql`](schema.sql).
+The SQL statements used to create the database and tables are in [`schema.sql`](schema.sql).
 
 ### Screenshots
 
 - [Table Creation and Definitions](database/screenshots/table_creation.png)
+- [Creation Statements](database/screenshots/creation_statements.png)
 - [SHOW TABLES Output](database/screenshots/show_tables.png)

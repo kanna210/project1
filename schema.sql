@@ -1,0 +1,20 @@
+
+CREATE DATABASE IF NOT EXISTS meal_picker;
+USE meal_picker;
+
+CREATE TABLE IF NOT EXISTS User (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS Meal (
+    meal_id INT AUTO_INCREMENT PRIMARY KEY,
+    meal_name VARCHAR(100) NOT NULL,
+    user_id INT NOT NULL,
+    crossed_out BOOLEAN NOT NULL DEFAULT FALSE,
+    FOREIGN KEY (user_id) REFERENCES User(user_id)
+);

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="user.js" defer></script>
     <title>Register</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
     </nav>
     
     <h1>Register <i class="fa-solid fa-address-card"></i></h1>
-    <form>
+    <form id="registerForm">
        
         <label for="first-name"><b>First Name</b></label>
         <input type="text" placeholder="Enter First Name" name="first-name" id="first-name" required>
@@ -24,10 +25,10 @@
         <input type="text" placeholder="Enter Last Name" name="last-name" id="last-name" required>
 
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <input type="email" placeholder="Enter Email" name="email" id="email" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" id="password" required>
 
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>

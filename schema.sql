@@ -1,4 +1,3 @@
-
 CREATE DATABASE IF NOT EXISTS meal_picker;
 USE meal_picker;
 
